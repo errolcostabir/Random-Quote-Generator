@@ -2,7 +2,7 @@ import React from 'react';
 import Button from './Button';
 
 const QuoteMachine = ({ assignNewQuoteIndex, selectedQuote }) => (
-            <div class="card" style={{width: "500px", borderRadius:"15px", backgroundColor: "rgba(74,74,74,0.6)",position: "absolute", top: "50%", left: "50%", transform: "translate(-50%,-50%)" }} >
+            <div class="card" style={{width: "90vw", maxHeight: "90vh", borderRadius:"15px", backgroundColor: "rgba(74,74,74,0.6)",position: "absolute", top: "50%", left: "50%", transform: "translate(-50%,-50%)" }} >
                 <div class="card-body">
                     <blockquote class="blockquote text-center text-monospace">
                         <p class="" id="text" style={{fontSize: "16px",color: "white"}}>{selectedQuote.quote}</p>
